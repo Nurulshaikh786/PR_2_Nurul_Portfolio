@@ -17,6 +17,11 @@ body{
     color: var(--theme-green);
     border-bottom: 5px solid var(--theme-green);
 }
+
+.divider{
+    height: 80px;
+}
+
 .navbar .navbar-brand span{
     color: var(--theme-yellow);
 }
@@ -167,4 +172,47 @@ transition: all 0.3s ease-in;
 }
 .my-services .service-content .services:hover .service-detail h3 , .service-detail-active h3{
     color: var(--theme-yellow) !important;
+}
+
+.button .btn {
+    background-color: var(--theme-green);
+    border-radius: 8px;   
+}
+.button .btn:hover {
+    background-color: var(--theme-yellow);
+    border-radius: 8px;   
+}
+.button-2 .btn {
+    background-color: var(--theme-white);
+    border-radius: 8px;   
+}
+.button-2 .btn:hover {
+    background-color: var(--theme-yellow);
+    border-radius: 8px;   
+}
+.button-2 .btn a{
+    color: var(--theme-green) !important;
+    font-size: 14px !important;
+}
+.button-2 .btn:hover  a{
+    color: var(--theme-white) !important;
+}
+
+.overlay{
+    background: rgba(15, 8, 0, 0.359) !important;
+    opacity:0;
+    display: flex;
+    transition: all 0.3s ease;
+
+}
+.my-portfolio .portfolio-content .content:hover .overlay{
+    opacity: 1 !important;
+}
+
+
+
+.my-blog{
+    background-image: url(../img/blog-bg.png);
+    width: 100%;
+    height: 550px;
 }
