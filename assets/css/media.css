@@ -1,0 +1,52 @@
+:root{
+    --theme-yellow:#F8CA29;
+    --theme-green:#252F2D;
+    --theme-white:#ffffff;
+    --theme-link:#B1B3B2;
+}
+
+@media(max-width:992px){
+   .header-sec{
+    background-image: none;
+    background: var(--theme-green);
+   }
+   .navbar{
+    margin: 0 0 ;
+   }
+   .hero-content{
+    padding-top: 100px !important;
+    padding-left: 0 ;
+   }
+}
+
+@media(max-width:772px){
+    .hero-links{
+        display: none;
+    }
+}
+
+@media(max-width:1200px){
+    .navbar{
+        margin: 0  0;
+    }
+}
+
+@media(min-width:996px){
+    .navbar{
+        margin: 50px;
+    }
+
+    
+}
+@media(max-width:576px){
+    .services{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media(max-width:512px){
+    .hero-content{
+        padding-left:20px ;
+    }
+}
