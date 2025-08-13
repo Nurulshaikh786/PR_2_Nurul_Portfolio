@@ -216,3 +216,18 @@ transition: all 0.3s ease-in;
     width: 100%;
     height: 550px;
 }
+.my-blog .blog-head{
+    color: white;
+    border-bottom: 5px solid white;
+}
+.my-blog .heading p{
+    color: var(--theme-white) !important;
+}
+
+.blog-content{
+    box-shadow: 0px 0px 20px 0px;
+    box-shadow: 0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
