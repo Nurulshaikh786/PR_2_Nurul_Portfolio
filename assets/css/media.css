@@ -9,6 +9,7 @@
     .header-sec {
         background-image: none;
         background: var(--theme-green);
+        height: 100%;
     }
 
     .navbar {
@@ -65,14 +66,6 @@
     .navbar {
         margin: 0 0;
     }
-}
-
-@media(min-width:996px) {
-    .navbar {
-        margin: 50px;
-    }
-
-
 }
 
 @media(max-width:576px) {

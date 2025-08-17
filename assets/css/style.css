@@ -3,9 +3,11 @@
     --theme-green:#252F2D;
     --theme-white:#ffffff;
     --theme-link:#B1B3B2;
+    --theme-orange:#fa7e23;
 }
 body{
     font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease-in-out;
 }
 
 .heading h2{
@@ -34,9 +36,8 @@ body{
 .header-sec{
     background-image: url(../img/hero.png);
     width: 100%;
-    float: left;
-    height: 95vh;
-    background-size: 100%;
+    height: 130vh;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .navbar .navbar-nav a{
@@ -177,6 +178,7 @@ transition: all 0.3s ease-in;
 .button .btn {
     background-color: var(--theme-green);
     border-radius: 8px;   
+    transition: all 0.3s ease-in;
 }
 .button .btn:hover {
     background-color: var(--theme-yellow);
@@ -184,7 +186,8 @@ transition: all 0.3s ease-in;
 }
 .button-2 .btn {
     background-color: var(--theme-white);
-    border-radius: 8px;   
+    border-radius: 8px;  
+    transition: all 0.3s ease-in; 
 }
 .button-2 .btn:hover {
     background-color: var(--theme-yellow);
@@ -193,11 +196,28 @@ transition: all 0.3s ease-in;
 .button-2 .btn a{
     color: var(--theme-green) !important;
     font-size: 14px !important;
+    transition: all 0.3s ease-in;
 }
 .button-2 .btn:hover  a{
     color: var(--theme-white) !important;
 }
-
+.button-3 .btn{
+    background-color: var(--theme-orange);
+    border-radius: 8px;
+    transition: all 0.3s ease-in;
+}
+.button-3 .btn:hover {
+    background-color: var(--theme-green);
+    border-radius: 8px;   
+}
+.button-3 .btn a{
+    color: var(--theme-white) !important;
+    font-size: 14px !important;
+    transition: all 0.3s ease-in;
+}
+.button-3 .btn:hover  a{
+    color: var(--theme-white) !important;
+}
 .overlay{
     background: rgba(15, 8, 0, 0.359) !important;
     opacity:0;
