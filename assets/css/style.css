@@ -35,8 +35,7 @@ body{
 
 .header-sec{
     background-image: url(../img/hero.png);
-    width: 100%;
-    height: 130vh;
+    width:  100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -100,8 +99,8 @@ body{
     color: var(--theme-white);
 }
 
-.play img{
-    width: 80px;
+.play{
+    
 }
  
 .bi-caret-right{
@@ -258,6 +257,38 @@ transition: all 0.3s ease-in;
 input::placeholder ,textarea::placeholder{
     color: black;
 }
-input{
-    border: 1px solid rgba(0, 0, 0, 0.477);
+input , textarea{
+    border: 1px solid rgba(17, 16, 16, 0.477);
+}
+
+input:focus{
+ border: 1px solid black;
+}
+
+.projects{
+    background: #f9f9f9;
+}
+
+.footer{
+    background-color: var(--theme-green);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 50px;
+    padding-top: 80px;
+}
+
+.footer-link a i{
+    background: #3e412d;
+    color: whitesmoke;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-link a i:hover{
+    background-color: var(--theme-white);
+    color: var(--theme-green);
+}
+
+.copyright p{
+    color: var(--theme-white);
 }

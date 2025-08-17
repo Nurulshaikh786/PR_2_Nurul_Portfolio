@@ -5,6 +5,17 @@
     --theme-link: #B1B3B2;
 }
 
+@media(max-width:772px) {
+    .hero-links {
+        display: none;
+    }
+
+    .text-project h2 {
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+}
+
 @media(max-width:992px) {
     .header-sec {
         background-image: none;
@@ -20,16 +31,7 @@
         padding-top: 100px !important;
         padding-left: 0;
     }
-}
 
-@media(max-width:772px) {
-    .hero-links {
-        display: none;
-    }
-
-   
-}
-@media(max-width:768px){
     .my-blog {
         background-image: url(../img/blog-bg.png);
         width: 100%;
@@ -37,35 +39,42 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .blog-content{
-    width: 100%;
-    background-color: #ffffff !important;
-    box-shadow: 0px 0px 5px 0px white;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding: 0px 0px 20px;
-}
-  .my-blog .button .btn {
-    background-color: var(--theme-white);
-    border-radius: 8px;   
-}
-.my-blog .button .btn:hover {
-    background-color: var(--theme-yellow);
-    border-radius: 8px;   
-}
-.my-blog .button .btn a{
-    color: var(--theme-green) !important;
-    font-size: 14px !important;
-}
-.my-blog .button .btn:hover  a{
-    color: var(--theme-white) !important;
-}
+
+    .blog-content {
+        width: 100%;
+        background-color: #ffffff !important;
+        box-shadow: 0px 0px 5px 0px white;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0px 0px 20px;
+    }
+
+    .my-blog .button .btn {
+        background-color: var(--theme-white);
+        border-radius: 8px;
+    }
+
+    .my-blog .button .btn:hover {
+        background-color: var(--theme-yellow);
+        border-radius: 8px;
+    }
+
+    .my-blog .button .btn a {
+        color: var(--theme-green) !important;
+        font-size: 14px !important;
+    }
+
+    .my-blog .button .btn:hover a {
+        color: var(--theme-white) !important;
+    }
 }
 
 @media(max-width:1200px) {
     .navbar {
         margin: 0 0;
+        margin-left: 30px !important;
     }
+
 }
 
 @media(max-width:576px) {
@@ -78,5 +87,15 @@
 @media(max-width:512px) {
     .hero-content {
         padding-left: 20px;
-    } 
+    }
+}
+
+@media(min-width:1100px){
+    .hero-about{
+        margin-bottom: 200px;
+    }
+    .play{
+     margin-top: -200 !important;
+     
+    }
 }
